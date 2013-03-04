@@ -1,0 +1,17 @@
+﻿### Spider Scrape Configuration ###
+### For OKCupid.com
+
+### General 
+browser_start_url = http://www.okcupid.com/profile/clarissall1
+http_request_timeout = 30
+pages_per_dump = 50
+
+### Output Files
+pending_url_file = pending.txt
+scraped_data_file = okcupid_data.txt
+visited_url_file = visited.txt
+
+### Scraping
+bad_url_regex = ([*/pictures][*/questions][*/personality][*/journal][*/tests][*/awards])
+good_url_regex = (http://www.okcupid.com/profile/*)
+ids_to_scrape = ajax_age,ajax_gender,ajax_orientation,ajax_status,ajax_location,essay_text_0,essay_text_1,essay_text_2,essay_text_3,essay_text_4,essay_text_5,essay_text_6,essay_text_7,essay_text_8,essay_text_9,ajax_gentation,ajax_ages,ajax_near,ajax_single,ajax_lookingfor
