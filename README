@@ -1,4 +1,9 @@
 SpiderScrape
 ============
 
-Bot for scraping OKCupid user data
+Bot for scraping various websites for customizable data payloads. Initially used (and currently configured)
+to scrape OKCupid, but was designed to be able to scrape different websites with a few simple configuration
+changes.
+
+Full writeup of pros/cons and more usage information available at:
+  http://www.stephenleefischer.com/posts/scraping-okcupid-will-bot-for-love
